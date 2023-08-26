@@ -43,7 +43,7 @@ def main():
         with col3:
             st.subheader("Podcast Guest")
             #added code
-            st.write("This is the length ",  len(podcast_info['podcast_guest']))
+            st.write("This is the length ",  podcast_info['podcast_guest'].keys())
             #addition end
             st.write(podcast_info['podcast_guest']['name'])
 
