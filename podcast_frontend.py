@@ -45,7 +45,7 @@ def main():
             #added code
             st.write("This is the length ",  podcast_info['podcast_guest'])
             #addition end
-            st.write(podcast_info['podcast_guest']['name'])
+            st.write(podcast_info['podcast_guest'])
 
         with col4:
             st.subheader("Podcast Guest Details")
